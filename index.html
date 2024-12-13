@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SafeTalks - Secure Communication Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      .gradient-bg {
+        background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+      }
+      .feature-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .feature-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+          0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-900 antialiased">
+    <header class="gradient-bg text-white py-16 shadow-2xl">
+      <div class="container mx-auto px-4 text-center">
+        <h1 class="text-5xl font-bold mb-4 tracking-tight">SafeTalks</h1>
+        <p class="text-xl max-w-2xl mx-auto opacity-90">
+          Empowering Global Conversations with Uncompromising Privacy and
+          Security
+        </p>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-16">
+      <section class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-6 text-gray-800">Our Mission</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          SafeTalks is more than a communication platform. We're building a
+          global community where privacy is a fundamental right, and meaningful
+          conversations can happen without fear or compromise.
+        </p>
+        <a
+          href="privacy-policy.html"
+          class="mt-8 inline-block bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition duration-300 shadow-lg hover:shadow-xl"
+        >
+          Explore Our Privacy Commitment
+        </a>
+      </section>
+
+      <section class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div
+          class="bg-white feature-card border border-gray-100 rounded-2xl p-8 text-center shadow-md"
+        >
+          <div class="mb-6">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-16 w-16 mx-auto text-blue-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+              />
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold mb-4 text-gray-800">
+            Secure Messaging
+          </h3>
+          <p class="text-gray-600">
+            Military-grade end-to-end encryption ensures your conversations
+            remain completely private and confidential.
+          </p>
+        </div>
+
+        <div
+          class="bg-white feature-card border border-gray-100 rounded-2xl p-8 text-center shadow-md"
+        >
+          <div class="mb-6">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-16 w-16 mx-auto text-blue-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+              />
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold mb-4 text-gray-800">
+            Community Driven
+          </h3>
+          <p class="text-gray-600">
+            Connect with a global network that values transparency, respect, and
+            meaningful dialogue.
+          </p>
+        </div>
+
+        <div
+          class="bg-white feature-card border border-gray-100 rounded-2xl p-8 text-center shadow-md"
+        >
+          <div class="mb-6">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-16 w-16 mx-auto text-blue-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+              />
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold mb-4 text-gray-800">
+            Trusted Platform
+          </h3>
+          <p class="text-gray-600">
+            User-friendly interface backed by cutting-edge security protocols
+            and constant innovation.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="container mx-auto px-4 text-center">
+        <div class="mb-6">
+          <p class="text-lg font-semibold tracking-wide opacity-80">
+            © 2024 SafeTalks. All Rights Reserved.
+          </p>
+        </div>
+        <div class="flex justify-center space-x-6 mb-6">
+          <a
+            href="#"
+            class="text-blue-300 hover:text-white transition duration-300"
+            >Privacy Policy</a
+          >
+          <a
+            href="#"
+            class="text-blue-300 hover:text-white transition duration-300"
+            >Terms of Service</a
+          >
+          <a
+            href="#"
+            class="text-blue-300 hover:text-white transition duration-300"
+            >Contact Us</a
+          >
+        </div>
+        <p class="text-sm opacity-70">
+          Contact us at
+          <a
+            href="mailto:safetalks.ph@gmail.com"
+            class="text-blue-400 underline hover:text-blue-300 transition"
+          >
+            safetalks.ph@gmail.com
+          </a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
